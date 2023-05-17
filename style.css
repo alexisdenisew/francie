@@ -4,6 +4,24 @@ html, body {
   
 }
 
+#name, #bigPic, #mainTxt, #bannerIMG, .grid-container{
+  animation-name: rise;
+  animation-duration: 1s; /* Duration of the animation */
+  animation-timing-function: ease-out; /* Timing function for the animation */
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(100%); /* Start position: image is translated 100% from the bottom */
+    opacity: 0; /* Start opacity: image is fully transparent */
+  }
+  to {
+    transform: translateY(0); /* End position: image is not translated, i.e., at the top */
+    opacity: 1; /* End opacity: image is fully opaque */
+  }
+}
+
+
 
 
 /* #bod {
