@@ -1,0 +1,306 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+
+/* #bod {
+  background-color: #ffe3e0;
+} */
+
+#barName, #helper{
+  font-family: 'Alata', sans-serif;
+  color: #ffd166;
+}
+
+#name, #smallerTit{
+  color: #fb8500; 
+  font-family: 'Alata', sans-serif;
+}
+
+#smallerTit{
+  color: #ffb703; 
+  font-family: 'Alata', sans-serif;
+}
+
+#center{
+  text-align: center;
+}
+
+#mainTxt, #specialBox, .mainLink, .specialLink, .dropdown-item{
+  font-family: 'Poppins', sans-serif;
+/*   color: #f38375; */
+}
+
+#linkStyle, .pink{
+  color: #ffb703;
+}
+
+.pink2{
+  color: white;
+}
+
+.specialLink:hover{
+  color: #fb8500;
+}
+
+.specialLink{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link{
+  font-family: 'Poppins', sans-serif;
+  color: #ffd166;
+}
+
+.mainLink{
+    color: #ffb703;
+  }
+
+.mainLink:hover{
+  color: #ffd166;
+}
+
+@keyframes fadeColor {
+  from {color: #ffb703;}
+  to {color: white;}
+}
+
+.pink2{
+  animation-name: fadeColor;
+  animation-duration: 15s;
+}
+
+@media screen and (min-width: 1001px) {
+  #center{
+    margin: 7%;
+    margin-left:15%;
+    margin-right:15%;
+  }
+  #bigPic{
+    width: 45%;
+    height: auto;
+  }
+  #name{
+    font-size: 450%;
+    margin-bottom: 3%;
+  }
+  #mainTxt{
+    font-size: 115%;
+  }
+  #leftAlign{
+    margin: 5%;
+    margin-left:15%;
+    margin-right:15%;
+  }
+  #spacer{
+    height: 200px;
+    width: auto;
+  }
+  #spacerMini{
+    height: 50px;
+    width: auto;
+  }
+  #specialSpace{
+    height: 100px;
+    width: auto;
+  }
+  #marginBox{
+    margin: 3%;
+  }
+  #bannerIMG{
+    width: 50%;
+    height: auto;
+  }
+  .mainLink{
+    font-size: 150%;
+  }
+  .specialLink{
+    font-size: 120%;
+  }
+  #ytPlayer{
+    width: 600px;
+    height: 355px;
+  }
+  #smallerTit{
+    font-size: 300%;
+    margin-bottom: 3%;
+  }
+  .writingPDF{
+    width: 800px;
+    height: 800px;
+  }
+  #watermark{
+    width: 170px;
+    height: auto;
+  }
+  #spacerXMini{
+    height: 5px;
+    width: auto;
+  }
+  #spacerMinier{
+    height: 50px;
+    width: auto;
+  }
+  #frame{
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+  #center{
+  margin: 7%;
+  }
+  #bigPic{
+    width: 45%;
+    height: auto;
+  }
+  #name{
+    font-size: 320%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  #mainTxt{
+    font-size: 115%;
+  }
+  #leftAlign{
+    margin: 5%;
+  }
+  #spacer{
+    height: 200px;
+    width: auto;
+  }
+  #spacerMini{
+    height:70px;
+    width: auto;
+  }
+  #spacerMinier{
+    height: 40px;
+    width: auto;
+  }
+  #specialSpace{
+    height: 100px;
+    width: auto;
+  }
+  #marginBox{
+    margin: 3%;
+  }
+  #bannerIMG{
+    width: 90%;
+    height: auto;
+  }
+  .mainLink{
+    font-size: 150%;
+  }
+  .specialLink{
+    font-size: 120%;
+  }
+  #ytPlayer{
+    width: 560px;
+    height: 315px;
+  }
+  #smallerTit{
+    font-size: 270%;
+    margin-bottom: 3%;
+  }
+  .writingPDF{
+    width: 500px;
+    height: 680px;
+  }
+  #watermark{
+    width: 170px;
+    height: auto;
+  }
+  #spacerXMini{
+    height: 5px;
+    width: auto;
+  }
+  #spacerMinier{
+    height: 50px;
+    width: auto;
+  }
+  #frame{
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #center{
+  margin: 8%;
+  }
+  #bigPic{
+    width: 70%;
+    height: auto;
+    margin-top: 5%;
+  }
+  #name{
+    font-size: 270%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  #mainTxt{
+    font-size: 90%;
+  }
+  #leftAlign{
+    margin: 5%;
+  }
+  #spacer{
+    height: 200px;
+    width: auto;
+  }
+  #specialSpace{
+    height: 100px;
+    width: auto;
+  }
+  #spacerMini{
+    height: 30px;
+    width: auto;
+  }
+  #marginBox{
+    margin: 3%;
+  }
+  #bannerIMG{
+    width: 100%;
+    height: auto;
+  }
+  .mainLink{
+    font-size: 130%;
+  }
+  .specialLink{
+    font-size: 120%;
+  }
+  #ytPlayer{
+    width: 320px;
+    height: 190px;
+  }
+  #smallerTit{
+    font-size: 120%;
+    margin-bottom: 10%;
+  }
+  #spacerMinier{
+    height: 50px;
+    width: auto;
+  }
+  #watermark{
+    width: 100px;
+    height: auto;
+  }
+  #frame{
+    width: 270px;
+    height: 195px;
+  }
+}
+
+/* about page */
+
+#specialBox{
+  border-style: double;
+  border-color: #fb8500;
+}
+
+
